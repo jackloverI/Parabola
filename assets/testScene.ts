@@ -86,7 +86,7 @@ export class TestScene extends Component {
         this._totalTime = 0;
     }
 
-    //估计初速度大小 计算初始的Vx和Vy
+    //固定初速度大小 计算初始的Vx和Vy
     calculateSubSpeed() {
         //标准化三元一次方程式；aX**2 + bX + c = 0;
         let a = (this.Py ** 2) / (this.Px ** 2) + 1;
